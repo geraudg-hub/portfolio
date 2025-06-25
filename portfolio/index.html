@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Gautier Géraud</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <h1 hidden>Portfolio de Gautier Géraud</h1>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Gautier Géraud</h1>
+      <p><strong>Email :</strong><br><a>g.geraudpro@outlook.com</a></p>
+      <p><strong>Téléphone :</strong><br>06 71 29 56 02</p>
+      <div class="buttons">
+        <button onclick="toggleDarkMode()">🌗 Mode Sombre</button>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="banner">
+        <div class="banner-text">
+          <h1>Portfolio Gautier Géraud</h1>
+          <h2>Concepteur Développeur d’Application</h2>
+        </div>
+      </div>
+
+
+      <div id="easter-egg">
+        <span id="secret-code">445566</span>
+        <img id="grimace-img" src="images/grimace.png" alt="grimace" />
+      </div>
+
+
+      <section id="about">
+        <br><br><br><br><br>
+        <div class="section-box">
+          <h2>Présentation</h2>
+        </div>
+        <br><br><br><br><br>
+
+        <div class="about-row">
+          <div class="about-text">
+            <p>
+              Récemment diplômé d’une formation de Concepteur Développeur d’Applications (niveau Bac +3), avec une passion grandissante pour l’intelligence artificielle. Après une année riche en apprentissages techniques et pratiques, je souhaite me spécialiser dans la conception d’applications intégrant des solutions IA innovantes.<br><br>
+
+              Durant mon stage de 3 mois, j’ai conçu un chatbot intelligent, une expérience qui m’a permis de mêler développement, traitement du langage naturel et interaction utilisateur. Je souhaite maintenant découvrir les utilisations possibles de l'IA (gestion de données, etc..).<br><br>
+
+              Je suis motivé à poursuivre dans cette voie, en explorant toujours plus les possibilités offertes par l’IA, et en développant des applications qui allient créativité et performance technique.
+            </p>
+            <br><br><br><br><br>
+
+          </div>
+
+          <div class="about-image">
+            <img src="images/cadre.png" alt="Cadre décoratif">
+          </div>
+        </div>
+      </section>
+
+
+      <section id="skills">
+        <div class="section-box">
+          <h2>Compétences</h2>  
+        </div>
+
+        <br><br><br><br><br>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-header">Frontend</div>
+            <div class="skill-card-body">
+              <div class="tech"><img src="images/html.png" alt="Logo HTML">HTML</div>
+              <div class="tech"><img src="images/css.png" alt="Logo CSS">CSS</div>
+              <div class="tech"><img src="images/javascript.png" alt="Logo JavaScript">JavaScript</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">Backend</div>
+            <div class="skill-card-body">
+              <div class="tech"><img src="images/flask.png" alt="Logo Flask">Flask</div>
+              <div class="tech"><img src="images/python.png" alt="Logo Python">Python</div>
+              <div class="tech"><img src="images/symfony.png" alt="Logo symfony">symfony</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">Base de données</div>
+            <div class="skill-card-body">
+              <div class="tech"><img src="images/mysql.png" alt="Logo mySQL">mySQL</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-header">Environnement</div>
+            <div class="skill-card-body">
+              <div class="tech"><img src="images/docker.png" alt="Logo Docker">Docker</div>
+              <div class="tech"><img src="images/github.png" alt="Logo GitHub">GitHub</div>
+              <div class="tech"><img src="images/vscode.png" alt="Logo Visual Studio Code">VSCode</div>
+            </div>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      </section>
+
+      <section id="objectifs" style="margin-top: 4rem; text-align: center;">
+        <div class="section-box">
+          <h2>Ce que je souhaite découvrir</h2>          
+        </div>
+
+        
+        <div style="max-width: 800px; margin: 2rem auto 0 auto; padding: 0 1rem;">
+          <p>
+            Passionné par l’intelligence artificielle, je souhaite approfondir la conception d’applications IA innovantes. 
+            J’ai déjà quelques notions sur des concepts clés tels que les vecteurs, les embeddings, les Transformers et les matrices de poids — 
+            même si ces dernières restent encore un peu floues pour moi. Mon objectif est de mieux comprendre ces fondamentaux pour pouvoir créer 
+            des modèles performants et intelligents, tout en maîtrisant leur fonctionnement interne.
+          </p>
+        </div>
+
+        <div style="margin-top: 2rem;">
+          <img src="images/transformer-diagram.png" alt="Schéma d'un Transformer" style="max-width: 100%; height: auto;">
+          <p style="font-style: italic; margin-top: 0.5rem;">Extrait du dossier Projet 2025</p>
+        </div>
+        <br><br><br><br><br>
+      </section>
+
+
+
+
+      <section id="projects">
+        <div class="section-box">
+          <h2>Projets</h2>          
+        </div>
+
+        <br><br><br><br><br>
+        <div class="project">
+          <h3>Chatbot OpenAI</h3>
+          <p>Assistant GPT-4 connecté à une API personnelle.</p>
+          <p><strong>Stack :</strong> Python, Flask, OpenAI API</p>
+
+          <div class="project-preview-wrapper">
+            <button class="preview-btn">Preview</button>
+            <div class="preview-images">
+              <img src="images/Image jalon.jpg" alt="Chatbot preview 1">
+              <img src="images/Image conception.jpg" alt="Chatbot preview 2">
+              <img src="images/Image architecture.jpg" alt="Chatbot preview 3">
+            </div>
+          </div>
+
+          <!-- Liens de téléchargement -->
+          <div class="download-links">
+            <p>
+              <a href="telechargeable/Dossier Projet Gautier Geraud.pdf" download target="_blank">Télécharger le dossier projet</a><br>
+              <a href="telechargeable/Presentation projet Geraud.pptx" download target="_blank">Télécharger la présentation</a>
+            </p>
+          </div>
+        </div>
+        <br><br><br><br><br>
+      </section>
+
+      <section id="experience">
+        <h2>Expériences & Formations</h2>
+        <br><br><br><br><br>
+        <ul>
+          <li><strong>2024-2025 :</strong> Formation Concepteur Développeur d’Applications – bac + 3, C2RT Agen (1 an)</li>
+          <li><strong>2025 :</strong> Stage chez BunkerIt - conception d'un chatbot (3 mois)</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Gautier Géraud. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+
+    const fr = {
+      aboutText: "Je suis un développeur passionné par l’IA, le développement web, et les projets créatifs.",
+      skills: "Compétences",
+      projects: "Projets",
+      about: "Présentation"
+    };
+
+    const en = {
+      aboutText: "I'm a developer passionate about AI, web development, and creative projects.",
+      skills: "Skills",
+      projects: "Projects",
+      about: "About Me"
+    };
+
+    let currentLang = "fr";
+
+    function toggleLang() {
+      currentLang = currentLang === "fr" ? "en" : "fr";
+      const lang = currentLang === "fr" ? fr : en;
+      document.getElementById("about-text").innerText = lang.aboutText;
+      document.querySelector("#about h2").innerText = lang.about;
+      document.querySelector("#skills h2").innerText = lang.skills;
+      document.querySelector("#projects h2").innerText = lang.projects;
+    }
+  </script>
+</body>
+</html>
