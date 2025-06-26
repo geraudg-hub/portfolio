@@ -15,9 +15,14 @@
   <div class="container">
     <aside class="sidebar">
       <h1>Gautier Géraud</h1>
-      <p><strong>Email :</strong><br><a>g.geraudpro@outlook.com</a></p>
+      <p><strong>Email :</strong><br><a href="mailto:g.geraudpro@outlook.com">g.geraudpro@outlook.com</a></p>
       <p><strong>Téléphone :</strong><br>06 71 29 56 02</p>
-      <div class="buttons">
+
+      <div class="social-links" style="margin-top: 1rem;">
+        <a href="https://github.com/geraudg-hub" target="_blank" rel="noopener noreferrer" style="margin-right: 1rem;">GitHub</a>
+      </div>
+
+      <div class="buttons" style="margin-top: 1rem;">
         <button onclick="toggleDarkMode()">🌗 Mode Sombre</button>
       </div>
     </aside>
@@ -30,12 +35,10 @@
         </div>
       </div>
 
-
       <div id="easter-egg">
         <span id="secret-code">445566</span>
         <img id="grimace-img" src="images/grimace.png" alt="grimace" />
       </div>
-
 
       <section id="about">
         <br><br><br><br><br>
@@ -54,7 +57,6 @@
               Je suis motivé à poursuivre dans cette voie, en explorant toujours plus les possibilités offertes par l’IA, et en développant des applications qui allient créativité et performance technique.
             </p>
             <br><br><br><br><br>
-
           </div>
 
           <div class="about-image">
@@ -62,7 +64,6 @@
           </div>
         </div>
       </section>
-
 
       <section id="skills">
         <div class="section-box">
@@ -113,7 +114,6 @@
           <h2>Ce que je souhaite découvrir</h2>          
         </div>
 
-        
         <div style="max-width: 800px; margin: 2rem auto 0 auto; padding: 0 1rem;">
           <p>
             Passionné par l’intelligence artificielle, je souhaite approfondir la conception d’applications IA innovantes. 
@@ -130,9 +130,6 @@
         <br><br><br><br><br>
       </section>
 
-
-
-
       <section id="projects">
         <div class="section-box">
           <h2>Projets</h2>          
@@ -143,6 +140,11 @@
           <h3>Chatbot OpenAI</h3>
           <p>Assistant GPT-4 connecté à une API personnelle.</p>
           <p><strong>Stack :</strong> Python, Flask, OpenAI API</p>
+          <br>
+
+          <p>
+            <a href="https://github.com/geraudg-hub/chatbot-code" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a>
+          </p>
 
           <div class="project-preview-wrapper">
             <button class="preview-btn">Preview</button>
@@ -153,7 +155,6 @@
             </div>
           </div>
 
-          <!-- Liens de téléchargement -->
           <div class="download-links">
             <p>
               <a href="telechargeable/Dossier Projet Gautier Geraud.pdf" download target="_blank">Télécharger le dossier projet</a><br>
@@ -173,13 +174,12 @@
       </section>
     </main>
 
-    <script src="main.js"></script>
-
+    <footer class="site-footer" style="margin-top: 2rem; text-align: center;">
+      <p>&copy; 2025 Gautier Géraud. Tous droits réservés.</p>
+    </footer>
   </div>
 
-  <footer class="site-footer">
-    <p>&copy; 2025 Gautier Géraud. Tous droits réservés.</p>
-  </footer>
+  <script src="main.js"></script>
 
   <script>
     function toggleDarkMode() {
